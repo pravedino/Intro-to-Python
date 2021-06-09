@@ -1,0 +1,6 @@
+# Indexing
+
+fruit_list = ["Apple", "Banana", "Orange"]
+apple = fruit_list[0]
+print(apple)
+print(fruit_list[2])
