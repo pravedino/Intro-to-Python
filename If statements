@@ -1,0 +1,10 @@
+# If statements
+
+age = 19
+
+if age < 18:
+    print("You are underage")
+elif age >= 55:
+    print("Consuming alcohol at old age may worsen health issues")
+else:
+    print("You may purchase")
