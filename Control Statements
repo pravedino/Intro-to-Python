@@ -1,0 +1,24 @@
+# Control Statement
+
+# Break
+
+for x in range(0, 10, 1):
+    if x == 3:
+        break
+    print(x)
+
+
+# Continue
+
+for x in range(0, 4, 1):
+    if x == 2:
+        continue
+    print(x)
+
+
+# Pass
+
+for x in range(1, 6, 1):
+    print(x)
+    if x == 5:
+        pass
