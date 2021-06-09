@@ -1,0 +1,7 @@
+# Complex Operators: Expressions
+
+print(4 > 5)
+print(5 < 3)
+
+fruit = True
+print(fruit == False)
