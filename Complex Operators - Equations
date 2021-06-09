@@ -1,0 +1,17 @@
+# Complex Operators: Equations
+
+a = 20
+a += 5
+print(a)
+
+b = 18
+b -= 3
+print(b)
+
+c = 20
+c *= 4
+print(c)
+
+d = 40
+d /= 5
+print(d)
