@@ -1,0 +1,15 @@
+# For Loop
+
+fruit_list = ["Apple", "Banana", "Orange", "Pear", "Mango"]
+for fruit in fruit_list:
+    print(fruit)
+
+for x in range(0, 10, 1):
+    print(x)
+
+for y in range(10, 0, -1):
+    print(y)
+
+for index in range(0, 3, 1):
+    fruit = fruit_list[index]
+    print(fruit)
