@@ -1,0 +1,8 @@
+# Intro slide
+
+my_list = [3, 4, 5, 6]
+string_list = ["Apple", "Banana", "Orange"]
+combined_list = [my_list, string_list]
+print(my_list)
+print(string_list)
+print(combined_list)
