@@ -1,0 +1,57 @@
+# Functions
+# Intro
+
+def print_hello():
+    print("Hello")
+
+print_hello()
+print_hello()
+
+
+
+# Parameters
+
+def square(n):
+    result = n * n
+    print(result)
+
+square(2)
+
+def add(a, b):
+    result = a + b
+    print(result)
+
+add(5, 4)
+
+
+
+# Return statements
+
+def square_V2(n):
+    result = n * n
+    return result
+
+square_5 = square_V2(5)
+print(square_5)
+
+
+
+# Variable Use
+
+def cube(n):
+    result = n * n * n
+    return result
+
+cube_3 = cube(3)
+print(cube_3)
+
+run = True
+def print_status():
+    global run
+    if run == True:
+        text = "Running"
+    else:
+        text = "Not Running"
+    print(text)
+
+print_status()
