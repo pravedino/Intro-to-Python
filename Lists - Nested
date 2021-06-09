@@ -1,0 +1,15 @@
+# Nested lists
+
+shop_list = [["Broccoli", 7.40], ["Orange", 5], ["Milk", 5.10]]
+
+orange = shop_list[1]
+print(orange)
+
+broccoli_price = shop_list[0][1]
+print(broccoli_price)
+
+shop_list[2][1] = 15
+print(shop_list)
+
+shop_list.append(["Mushrooms", 10])
+print(shop_list)
