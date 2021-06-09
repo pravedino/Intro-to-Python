@@ -1,0 +1,57 @@
+# Intro slide
+
+my_list = [3, 4, 5, 6]
+string_list = ["Apple", "Banana", "Orange"]
+combined_list = [my_list, string_list]
+print(my_list)
+print(string_list)
+print(combined_list)
+
+
+
+
+# Indexing
+
+fruit_list = ["Apple", "Banana", "Orange"]
+apple = fruit_list[0]
+print(apple)
+print(fruit_list[2])
+
+
+
+
+# Manipulating Lists
+
+number_list = [1, 2, 3, 4]
+
+number_list[0] = "One"
+print(number_list)
+
+number_list.append([50, 64])
+print(number_list)
+
+number_list.pop(2)
+print(number_list)
+
+fibo_list = [1, 1, 2, 3, 5, 8]
+fibo_list_length = len(fibo_list)
+print(fibo_list_length)
+
+
+
+
+# Nested lists
+
+shop_list = [["Broccoli", 7.40], ["Orange", 5], ["Milk", 5.10]]
+
+orange = shop_list[1]
+print(orange)
+
+broccoli_price = shop_list[0][1]
+print(broccoli_price)
+
+shop_list[2][1] = 15
+print(shop_list)
+
+shop_list.append(["Mushrooms", 10])
+print(shop_list)
