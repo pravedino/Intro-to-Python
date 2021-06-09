@@ -1,0 +1,16 @@
+# Manipulating Lists
+
+number_list = [1, 2, 3, 4]
+
+number_list[0] = "One"
+print(number_list)
+
+number_list.append([50, 64])
+print(number_list)
+
+number_list.pop(2)
+print(number_list)
+
+fibo_list = [1, 1, 2, 3, 5, 8]
+fibo_list_length = len(fibo_list)
+print(fibo_list_length)
